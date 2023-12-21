@@ -82,6 +82,9 @@ ul li a:hover::before {
   transform: translate(-50%, -50%);
   width: 30px;
   height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: transparent;
   border: 4px solid #2efc72;
   border-radius: 50%;

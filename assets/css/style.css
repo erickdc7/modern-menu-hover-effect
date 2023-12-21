@@ -72,3 +72,16 @@ ul li a::before {
 ul li a:hover::before {
   opacity: 1;
 }
+
+.cursor {
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: 4px solid #2efc72;
+  border-radius: 50%;
+  pointer-events: none;
+}

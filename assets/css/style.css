@@ -35,3 +35,11 @@ ul:hover li a {
 ul li a:hover {
   opacity: 1;
 }
+
+ul li a img {
+  position: absolute;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  transition: 0.2s;
+  z-index: -2;
+}

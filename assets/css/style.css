@@ -18,3 +18,12 @@ body {
 ul li {
   list-style: none;
 }
+
+ul li a {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s;
+}

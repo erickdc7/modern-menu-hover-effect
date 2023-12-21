@@ -27,3 +27,11 @@ ul li a {
   text-decoration: none;
   transition: 0.5s;
 }
+
+ul:hover li a {
+  opacity: 0.1;
+}
+
+ul li a:hover {
+  opacity: 1;
+}

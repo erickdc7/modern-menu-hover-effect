@@ -38,12 +38,17 @@ ul li a:hover {
 
 ul li a img {
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   top: var(--y);
   left: var(--x);
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(0);
   opacity: 0;
   transition: 0.2s;
   z-index: -2;
+}
+
+ul li a:hover img {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
 }

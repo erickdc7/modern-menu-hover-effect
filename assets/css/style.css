@@ -38,13 +38,14 @@ ul li a:hover {
 
 ul li a img {
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   top: var(--y);
   left: var(--x);
   transform: translate(-50%, -50%) scale(0);
   opacity: 0;
   transition: 0.2s;
+  pointer-events: none;
   z-index: -2;
 }
 

@@ -53,3 +53,22 @@ ul li a:hover img {
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
 }
+
+ul li a::before {
+  content: attr(data-text);
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0;
+  transition: 0.25s;
+  font-size: 18vw;
+  z-index: -1;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+
+ul li a:hover::before {
+  opacity: 1;
+}

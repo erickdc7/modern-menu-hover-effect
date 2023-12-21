@@ -113,3 +113,9 @@ ul li:hover ~ .cursor {
 ul li:hover ~ .cursor::before {
   scale: 1;
 }
+
+@media screen and (max-width: 340px) {
+  ul li a {
+    font-size: 2em;
+  }
+}
